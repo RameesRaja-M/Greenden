@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden Products</title>
+    <!--Tailwind CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome CSN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Responsive Navbar Section -->
+    <nav
+        class="bg-green-100 h-20 bg-gradient-to-r from-yellow-400 via-green-500 to-yellow-400  p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-4xl font-bold text-white">GREENDEN</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6 md:hidden cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+
+        <ul class="gap-5 text-white font-bold hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html"> Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- Responsive Side Navbar Section -->
+    <section id="sidenavbar" class="bg-yellow-400 fixed z-20 top-0 transition-all duration-1000 "
+        style="width: 50%; height: 100vh;right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+
+        <ul class="flex flex-col gap-10 text-center text-white font-bold ">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html"> Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Responsive Product Section -->
+    <section class=" text-center bg-green-100 p-10 shadow-2xl">
+        <h1 class="font-bold text-3xl  mt-5">OUR PRODUCTS</h1>
+        <input type="text" placeholder="Search for a Product" id="search" class="border border-black p-2  m-3 rounded-xl shadow-xl "
+            style="width: 80%;">
+        
+        <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10  ">
+            <div>
+                <img src="./images/Rose.png" alt="Best Seller Image "
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Rose Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img src="./images/Lilly.png" alt="Best Seller Image"
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Lilly Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img src="./images/Jasmine.png" alt="Best Seller Image"
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Jasmine Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img src="./images/Sunflower.png" alt="Best Seller Image"
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Sunflower Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img  src="./images/Flora.png " alt="Best Seller Image "
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2 ">
+                <h1 class="text-green-700 font-bold text-xl">Flora Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img src="./images/Iris.png" alt="Best Seller Image"
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Iris Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img src="./images/Poppy.png" alt="Best Seller Image"
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Poppy Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+            <div>
+                <img src="./images/Abutilon.png" alt="Best Seller Image"
+                    class=" border border-black inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="text-green-700 font-bold text-xl">Abutilon Pot</h1>
+                <p class="font-bold text-black text-xl">$25</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Responsive Footer Section -->
+    <section class="bg-green-500 p-10  mt-5 flex flex-col gap-5 text-center">
+        <h1 class="text-4xl font-bold text-white">Greenden</h1>
+        <p>At Greenden, we,re passionate about bringing nature closer to you with our premium selection of indoor and
+            outdoor plants. Whether you're a seasoned gardener or just starting, we offer eco-friendly solutions to
+            nurture your green space. Explore sustainable gardening tips, quality plants, and exceptional customer
+            service.</p>
+        <div class="text-4xl cursor-pointer">
+            <i class="fa-brands fa-pinterest" style="color: #000000;"></i>
+            <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+            <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+            <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+        </div>
+
+        <p class="cursor-pointer">&copy; 2024 Greenden.com</p>
+
+        <ul
+            class="gap-5 text-white h-20 bg-gradient-to-r from-yellow-400 via-green-500 to-yellow-400 font-bold flex justify-center items-center  ">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html"> | Product </a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html"> | Contact</a>
+            </li>
+        </ul>
+
+
+    </section>
+    <!-- Link JavaScript File -->
+    <script src="product.js"></script>
+
+</body>
+
+</html>
