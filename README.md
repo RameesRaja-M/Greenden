@@ -34,7 +34,7 @@ Includes a simple, intuitive contact form for inquiries and integrates social me
 | Styling      | HTML, CSS, Tailwind CSS      |
 | Interactivity| JavaScript                   |
 | Tools        | Git, GitHub                  |
-| Deployment   | (Add Vercel/Netlify link if deployed) |
+| Deployment   | GitHub |
 
 ## Key Learnings
 
